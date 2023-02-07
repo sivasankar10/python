@@ -18,3 +18,8 @@ for i in range(0, len(arr)):
 #Displays the frequency of each element present in array    
 print("---------------------");    
 print(" Element | Frequency");
+print("---------------------");    
+for i in range(0, len(fr)):    
+    if(fr[i] != visited):    
+        print("    " + str(arr[i]) + "    |    " + str(fr[i]));    
+print("---------------------");
